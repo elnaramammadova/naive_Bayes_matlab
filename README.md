@@ -1,2 +1,9 @@
 # naive_Bayes_matlab
-Naive Bayes project in matlab
+Naïve Bayes project in matlab
+
+
+Background
+Naïve Bayes is a simple technique for building classifiers. Such models assign class labels to instances represented as vectors of feature values, where the class labels are drawn from some finite set. Naive Bayes is not a single algorithm for training such classifiers, but a family of algorithms based on a common principle: all naive Bayes classifiers assume that the value of a particular feature is independent of the value of any other feature, given the class variable. For example, a fruit may be considered to be an apple if it is red, round and roughly three inches in diameter. A Naïve Bayes classifier assumes that each of these features contribute independently to the probability that the fruit is an apple, regardless of any possible correlations between colour, roundness and diameter. For some types of probability models, Naïve Bayes can be trained very efficiently in a supervised learning setting. In many practical applications, parameter estimation for Naïve Bayes uses maximum likelihood. Despite their simple design and apparently oversimplified assumptions, naive Bayes classifiers have worked quite well in many complex real-world situations. In 2004, an analysis of the Bayesian classification problem showed that there are sound theoretical reasons for the apparently implausible efficacy of Naïve Bayes classifiers. Still, a comprehensive comparison with other classification algorithms in 2006 showed that Naïve Bayes classification is outperformed by other approaches, such as Boosted Trees or Random Forests. A major advantage of Naïve Bayes is that it only requires a small amount of training data to estimate the parameters for classification.
+
+1. Harry Zhang. The optimality of naive bayes. AA, 1(2):3, 2004
+2. Rich Caruana and Alexandru Niculescu-Mizil. An empirical compar- ison of supervised learning algorithms. In Proceedings of the 23rd international conference on Machine learning, pages 161–168, 2006
